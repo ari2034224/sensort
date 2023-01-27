@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 }
                 music.reset();
                 music = MediaPlayer.create(this, canciones[curr]);
+                music.start();
             }
         }
 
